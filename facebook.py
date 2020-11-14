@@ -9,18 +9,6 @@ import random
 
 
 
-
-
-
-▒█▀▀█ ▒█▀▀█ ░█▀▀█ ▒█▀▀█ ▒█░▄▀ 
-▒█░░░ ▒█▄▄▀ ▒█▄▄█ ▒█░░░ ▒█▀▄░ 
-▒█▄▄█ ▒█░▒█ ▒█░▒█ ▒█▄▄█ ▒█░▒█
-
-
-
-
-
-
 email = str(raw_input("Enter the Facebook Username : "))
 
 
