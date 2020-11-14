@@ -67,11 +67,11 @@ def welcome():
         +=========================================+
         |..........   Facebook Crack   ...........|
         +-----------------------------------------+
-        |            #Author: Ha3MrX              | 
+        |            #Author: Heavens             | 
         |	       Version 1.0                |
- 	|   https://www.youtube.com/c/HA-MRX      |
+ 	|     @ Jackson_heavens_                  |
         +=========================================+
-        |..........  Facebook Cracker  ...........|
+        |..........  Facebook Brute.   ...........|
         +-----------------------------------------+\n\n
 """
 	total = open(passwordlist,"r")
