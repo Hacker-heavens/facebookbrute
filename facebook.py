@@ -21,7 +21,6 @@ useragents = [('Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/
 
 def main():
 	global br
-	br = mechanize.Browser()
 	cj = cookielib.LWPCookieJar()
 	br.set_handle_robots(False)
 	br.set_handle_redirect(True)
@@ -79,9 +78,4 @@ def welcome():
 	print " [💣] Account to crack : {}".format(email)
 	print " [*] Loaded :" , len(total), "passwords"
 	print " [*] Cracking, please wait ...\n\n"
-
-	
-if __name__ == '__main__':
-	main()
-
 
